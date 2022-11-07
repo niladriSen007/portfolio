@@ -1,0 +1,63 @@
+{
+    "projects": [
+      {
+        "date": "07/09/2022",
+        "title": "MBA CHAIWALA CLONE",
+        "description": "This is the demo website of MBA Chaiwala",
+        "url": "https://mbachaiwalanil.vercel.app",
+        "imgSrc": "https://ik.imagekit.io/ksaehdhru/login_form/portfolio/mbachaiwala_FRa-0dmTf5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667740549577"
+      },
+  
+      {
+        "date": "11/06/2022",
+        "title": "GYM EXERCISE APP",
+        "description": "This is an app where peoplecan find exercises according to their body parts.",
+        "url": "https://niladrigym.netlify.app/",
+        "imgSrc": "https://ik.imagekit.io/ksaehdhru/login_form/portfolio/niladrigym_qe2mgAgo6p.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667740195687"
+      },
+      {
+        "date": "15/10/2022",
+        "title": "TESLA CLONE",
+        "description": "This is tesla  clone where anyone can see the tesla products ",
+        "url": "https://teslanil.netlify.app",
+        "imgSrc": "https://ik.imagekit.io/ksaehdhru/login_form/portfolio/tesla_SbejFneQzL.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667740195985"
+      },
+  
+      {
+        "date": "17/10/2022",
+        "title": "COINBOT ",
+        "description": "This isa normal frontend website by using react js.",
+        "url": "https://coinbotnil.netlify.app",
+        "imgSrc": "https://ik.imagekit.io/ksaehdhru/login_form/portfolio/coinbot__1__hdF_YubLA6.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667740582823"
+      },
+      {
+        "date": "20/10/2022",
+        "title": "OMNIFOOD",
+        "description": "This is the food website wher anyone can see the foods which they can order as a meal.",
+        "url": "https://omnifood-nil.netlify.app",
+        "imgSrc": "https://ik.imagekit.io/ksaehdhru/login_form/portfolio/omnifood_Mtp8oxV_oy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667740194667"
+      },
+      {
+        "date": "20/10/2022",
+        "title": "CRYPTOX",
+        "description": "This is the sample website where anyone can see the details of crypto coins and read more about them.",
+        "url": "https://nilcryptox.vercel.app",
+        "imgSrc": "https://ik.imagekit.io/ksaehdhru/login_form/portfolio/crypto_KCLnKhATZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667740194758"
+      }
+    ],
+    "work":[
+      {
+        "date":"16/11/2021 - Present",
+        "title":"Programmer",
+        "description":"My role in this post in the first few months was to create API's based on clients requirement.Currently I am allocated to a react.js project where me and my team are working on a health care app using react, reduxjs-toolkit,styled-components etc.",
+        "company":"Cognizant Technology Solutions."
+       },
+     {
+      "date":"16/10/2020 - 09/09/2021",
+      "title":"Associate",
+      "description":"My role on that job was to solve claims based on day to day updated queries using SQL and to help the senior developer and  to communicate with the client and discuss about the future responsibilities and projects of our team.",
+      "company":"Wipro Private Ltd."
+     }
+   
+    ]
+  }

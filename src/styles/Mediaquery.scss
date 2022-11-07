@@ -1,0 +1,833 @@
+
+@media screen and (max-width: 1499px) {
+  nav {
+    padding: 0 $p_md;
+  }
+
+  #home {
+    height: 100vh;
+    > section {
+      &:first-of-type {
+        padding-left: $p_md;
+        > div aside {
+          width: 85%;
+        }
+      }
+      &:last-of-type
+      {
+        img
+      {
+        height: 60vmax;
+      }
+      &::after
+      {
+        width: 40vmax;
+        height: 45vmax;
+      }
+      }
+    }
+  }
+
+  #work {
+    margin: 6rem 0 4rem;
+    padding: 8rem $p_md;
+    height: 110vh;
+    > section {
+      > article {
+        height: 20rem;
+        width: 90%;
+      }
+      .workItem {
+        padding: 2rem;
+        height: 20rem;
+        > aside {
+          > p {
+            margin: 1rem;
+          }
+          > a {
+            margin: 1rem;
+          }
+        }
+      }
+    }
+  }
+  #experience
+  {
+    margin: 4rem 0;
+  }
+
+  #services {
+    padding: $p_md;
+    > section {
+      height: 90%;
+    }
+  }
+  #testimonials {
+    padding: $p_md;
+    > section {
+      width: 100%;
+    }
+  }
+
+  #contact > section > form {
+    > input,
+    > button {
+      font: 400 0.8rem $text1;
+      width: 50%;
+    }
+  }
+
+  footer {
+    padding-left: $p_md;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  nav {
+    padding: 0 $p_base;
+  }
+
+  #home {
+    height: 110vh;
+    > section {
+      &:first-of-type {
+        padding-left: $p_base;
+        > div {
+          > h1 {
+            font: 900 3rem $text1;
+            span
+            {
+              &::after
+              {
+                top: 5%;
+                left: 0;
+                width: 13.3rem;
+                height: 50px;
+              }
+            }
+          }
+        
+
+          aside {
+            width: 100%;
+          }
+          // .hide
+          // {
+          //   display: none;
+          // }
+        }
+      }
+    }
+  }
+
+  #work {
+    padding: 8rem $p_base;
+  }
+
+  #services {
+    padding: $p_base_inverse;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  nav {
+    padding: 0 $p_sm;
+    > h2 {
+      font-size: 1.8rem;
+    }
+    > div {
+      gap: 1rem;
+    }
+  }
+
+  #home {
+    > section {
+      &:first-of-type {
+        padding-left: $p_sm;
+        
+        > div {
+          > div {
+            gap: 2rem;
+            width: 100%;
+          }
+          aside {
+            flex-direction: column;
+          }
+        }
+      }
+      &:last-of-type
+      {
+        img
+        {
+          height: 40vmax;
+        }
+        &::after
+        {
+          height: 50vmax;
+          width: 40vmax;
+        }
+        img
+        {
+          height: 80vmax;
+         
+        }
+      }
+    }
+  }
+
+  #work {
+    padding: 8rem $p_zero;
+    > section {
+      > article {
+        height: 25rem;
+      }
+      .workItem {
+        height: 20rem;
+        margin-top: 2.2rem;
+      }
+    }
+  }
+
+  #services {
+    padding: $p_sm_inverse;
+    height: 90vh;
+  }
+
+  #experience {
+    .timelineItem {
+     >div
+     {
+      h2
+      {
+        font-size: 1.4rem;
+      }
+      p:first-of-type
+      {
+            font-size: 1.2rem;
+            font-weight: 800;
+      }
+      p:nth-child(3)
+      {
+        font-size: 1rem;
+      }
+      p:last-of-type
+      {
+        font-size: .8rem;
+      }
+     }
+    }
+  }
+
+  #testimonials {
+    padding: 5rem;
+    > h2 {
+      padding: 3rem;
+      margin-bottom: 0%;
+    }
+    > section {
+      padding: 7rem;
+      height: 45rem;
+      justify-content: space-around;
+      align-items: center;
+
+      > article {
+        width: 40%;
+        height: 50%;
+      }
+    }
+  }
+
+  #contact > section > form {
+    > h2 {
+      font: 100 2.3rem $text2;
+    }
+    > input,
+    > button {
+      width: 85%;
+    }
+  }
+
+  footer {
+    padding-left: $p_zero;
+    grid-template-columns: 1fr;
+    > div {
+      width: 100%;
+      border: none;
+      p {
+        width: 50%;
+        margin: 2rem auto;
+      }
+    }
+    > a {
+      margin: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 880px)
+{
+  #home
+  {
+   >section
+   {
+    position: relative;
+    &:last-of-type
+    {
+      >img
+      {
+        height: 90vmax;
+      }
+      &::after
+      {
+        position: absolute;
+        bottom: 6.5%;
+        height: 55vmax;
+        width: 45vmax;
+      }
+    }
+   }
+  }
+  #testimonials
+  {
+    // height: 200vh;
+    section
+    {
+    height: 100%;
+      >article
+      {
+        // height: 80%;
+        margin: 20px;
+        width: 50%;
+        img
+        {
+          width: 60px;
+          height: 60px;
+          padding-bottom: .2rem;
+        }
+        p
+        {
+          margin: 10px;
+        }
+      }
+    
+    }
+  }
+}
+
+
+@media screen and (max-width: 796px) {
+  nav {
+    > div,
+    > a {
+      display: none;
+    }
+  }
+  .navBtn {
+    display: block;
+  }
+  #home
+  {
+    >section
+    {
+      &:last-of-type
+    {
+      >img
+      {
+        height: 80vmax;
+      }
+      &::after
+      {
+        height: 55vmax;
+        width: 45vmax;
+        bottom: 8%;
+      }
+    }
+    }
+  }
+}
+@media screen and (max-width: 750px)
+{
+  #home
+  {
+    >section
+    {
+      &:last-of-type
+    {
+      >img
+      {
+        height: 70vmax;
+      }
+      &::after
+      {
+        height: 55vmax;
+        width: 45vmax;
+        bottom: 1.6%;
+      }
+    }
+    }
+  }
+  #work
+  {
+   >section
+   {
+    .workItem
+    {
+      >aside
+      {
+        >h3
+        {
+          font-size: 1.1rem;
+        }
+        >p
+        {
+          letter-spacing: 2px;
+          line-height: 150%;
+          margin: 1rem;
+          font-size: .9rem;
+        }
+        >a
+      {
+        padding: 8px;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+      }
+    }
+   }
+  }
+}
+
+@media screen and (max-width: 720px)
+{
+  #experience {
+    .timelineItem {
+     >div
+     {
+      h2
+      {
+        font-size: 1.2rem;
+      }
+      p:first-of-type
+      {
+            font-size: 1rem;
+            font-weight: 800;
+      }
+      p:nth-child(3)
+      {
+        font-size: .8rem;
+      }
+      p:last-of-type
+      {
+        font-size: .6rem;
+      }
+     }
+    }
+  }
+  #contacts
+  {
+    grid-template-columns: 1fr;
+    >section
+    {
+      >form
+      {
+        text-align: center;
+        >input
+        {
+          width: 70%;
+        }
+        >h2
+      {
+        font-size: 1.6rem;
+        font-weight: 800;
+      }
+      }
+    }
+    >aside
+    {
+      grid-row: -1;
+    }
+  }
+  #testimonials
+  {
+    >section
+    {
+      padding:4rem 2rem;
+      >article
+      {
+        padding:3rem .5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #home {
+    height: unset;
+    flex-direction: column-reverse;
+
+    > section {
+      &:first-of-type {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        > div {
+          border: none;
+          padding-top: 3rem;
+          > h1 {
+            font: 900 2.5rem $text1;
+            >span
+            {
+              &::after
+              {
+                width: 10.9rem;
+              }
+            }
+          }
+          > div {
+            flex-direction: column;
+          }
+          aside {
+            align-items: center;
+          }
+
+          article[data-special] {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            span {
+              display: block;
+              width: 70%;
+              word-wrap: break-word;
+            }
+          }
+
+          article {
+            width: 100%;
+            text-align: center;
+            &::after {
+              top: -10%;
+              left: 0%;
+              height: 4rem;
+              
+            }
+            >p
+            {
+              font-size: 1.3rem;
+            }
+            >span
+            {
+              font-size: .75rem;
+            }
+          }
+        }
+        article[data-special] {
+          width: 25rem;
+        }
+      }
+
+      &:last-of-type {
+        border: none;
+        &::after
+        {
+          bottom: 2.5%;
+        }
+      }
+    }
+
+    > svg {
+      font-size: 2rem;
+      bottom: 12%;
+    }
+    
+  }
+
+  #work {
+    > section {
+      > article {
+        width: 100%;
+        height: 30vmax;
+      }
+      .workItem {
+        height: 30vmax;
+        box-shadow: 0 0 5px $color1;
+        > aside {
+          padding: 1rem;
+
+          > h3 {
+            margin: 1rem;
+          }
+
+          > p {
+            letter-spacing: 0;
+            line-height: unset;
+            margin: 0%;
+            font-size: 0.75rem;
+          }
+
+          > a {
+            padding: 0.4rem 0.7rem;
+            font-size: 0.7rem;
+            margin: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  #experience {
+    .timelineBox::after {
+      left: 31px;
+      top: 0;
+    }
+
+    .timelineItem {
+      width: 100%;
+      padding-left: 5rem;
+      padding-right: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .rightTimeline {
+      left: 0%;
+    }
+    .leftTimeline,
+    .rightTimeline {
+      &::after {
+        left: 15px;
+      }
+    }
+  }
+
+  #services {
+    height: 55rem;
+    padding: 1rem;
+    > section {
+      margin: 1.6rem 0 ;
+      // padding: 2rem 1rem 15rem;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      >*
+      {
+        padding: .4rem;
+        >svg
+        {
+          font-size: 2rem;
+        }
+        >span
+        {
+          font-size: .8rem;
+          padding: .2rem;
+        }
+      }
+      .serviceBox1 {
+        grid-column: 1/3;
+        grid-row: unset;
+      }
+
+      .serviceBox4 {
+        grid-column: 1/3;
+      }
+    }
+  }
+  #testimonials 
+  {
+
+    padding: 5rem;
+
+    > section {
+      height: unset;
+      gap: 3rem;
+      > article {
+        width: 100%;
+        height: 40%;
+      }
+    }
+  }
+
+  #contact {
+    grid-template-columns: 1fr;
+    > aside {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 540px)
+{
+  #work
+  {
+   >section
+   {
+    .workItem
+    {
+      >aside
+      {
+        >h3
+        {
+          font-size: .9rem;
+        }
+        >p
+        {
+          letter-spacing: 1px;
+          line-height: 120%;
+          margin: .2rem;
+          font-size: .7rem;
+        }
+        >a
+      {
+        padding: 4px;
+        border-radius: 4px;
+        font-size: .6rem;
+      }
+      }
+    }
+   }
+  }
+}
+
+@media screen and (max-width: 470px)
+{
+  #work
+  {
+   >section
+   {
+    .workItem
+    {
+      >aside
+      {
+        >h3
+        {
+          font-size: .6rem;
+        }
+        >p
+        {
+          // letter-spacing: 1px;
+          // line-height: 120%;
+          margin: .2rem;
+          font-size: .5rem;
+        }
+        >a
+      {
+        padding: 4px;
+        border-radius: 4px;
+        font-size: .6rem;
+      }
+      }
+    }
+   }
+  }
+}
+
+@media screen and (max-width: 420px)
+{
+  #testimonials
+  {
+    padding: 2rem;
+    >h2
+    {
+      font-size: 1.8rem;
+    }
+    > section {
+      height: unset;
+      gap: 3rem;
+      > article {
+        width: 100%;
+        padding: 2rem .6rem;
+        height: 20%;
+        img
+        {
+          width: 60px;
+          height: 60px;
+        }
+        p
+        {
+          letter-spacing: .6px;
+          margin: 12px 0;
+          line-height: 150%;
+  
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 390px)
+{
+  #work
+  {
+   >section
+   {
+    .workItem
+    {
+      >img
+      {
+        width: 55%;
+      }
+      >aside
+      {
+        width: 100%;
+        padding: 10px;
+        >h3
+        {
+          font-size: .5rem;
+        }
+        >p
+        {
+          margin: .1rem;
+          font-size: .4rem;
+        }
+        >a
+      {
+        padding: 3px;
+        border-radius: 4px;
+        font-size: .4rem;
+      }
+      }
+    }
+   }
+  }
+}
+
+@media screen and (max-width: 375px)
+{
+  #testimonials 
+  {
+    padding: 2rem ;
+    > section {
+      > article {
+  
+        padding: 2rem .6rem;
+        height: 20%;
+        img
+        {
+          width: 50px;
+          height: 50px;
+        }
+        p
+        {
+          font-size: .7rem;
+          letter-spacing: .2px;
+          margin: 8px 0;
+          line-height: 130%;
+  
+        }
+      }
+    }
+  }
+  #services
+  {
+    padding: 2rem 20rem 2rem 2rem;
+    >section
+    {
+      >*
+      {
+          width: 100%;
+          // height: 80%;
+      }
+    }
+  }
+}
